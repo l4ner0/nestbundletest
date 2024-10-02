@@ -1,0 +1,1 @@
+{"version":3,"file":"nestlog.service.js","sourceRoot":"","sources":["../../libs/nestlog/src/nestlog.service.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAA4C;AAGrC,IAAM,cAAc,GAApB,MAAM,cAAc;IACzB,GAAG,CAAC,OAAO;QACT,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAC;IACvB,CAAC;CACF,CAAA;AAJY,wCAAc;yBAAd,cAAc;IAD1B,IAAA,mBAAU,GAAE;GACA,cAAc,CAI1B"}
