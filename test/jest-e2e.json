@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/requestify/(.*)": "<rootDir>/../libs/requestify/src/$1",
+    "@app/requestify": "<rootDir>/../libs/requestify/src",
+    "@app/nestlog/(.*)": "<rootDir>/../libs/nestlog/src/$1",
+    "@app/nestlog": "<rootDir>/../libs/nestlog/src"
+  }
+}
