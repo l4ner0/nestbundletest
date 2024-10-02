@@ -1,10 +1,13 @@
 {
-  "name": "library-template",
+  "name": "@l4ner0/nestbundletest",
   "version": "0.0.1",
   "description": "",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "repository": {
+    "url": "https://github.com/l4ner0/nestbundletest.git"
+  },
   "scripts": {
     "build": "rimraf packages && concurrently \"tsc -p ./libs/nestlog/tsconfig.lib.json\" \"tsc -p ./libs/requestify/tsconfig.lib.json\"",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"libs/**/*.ts\"",
